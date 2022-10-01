@@ -4,10 +4,26 @@
  */
 package model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author admin
  */
 public class EmployeeData {
+    
+    private ArrayList<Employee> EmployeeData;
+    
+    public EmployeeData(){
+        this.EmployeeData = new ArrayList<Employee>();
+    }
+
+    public ArrayList<Employee> getEmployeeData() {
+        return EmployeeData;
+    }
+
+    public void setEmployeeData(ArrayList<Employee> EmployeeData) {
+        this.EmployeeData = EmployeeData;
+    }
     
 }
